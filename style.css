@@ -9,7 +9,7 @@ body {
   background: #ff0000;
 }
 
-#clearfix::after {
+.clearfix::after {
   content: "";
   display: block;
   clear: both;
