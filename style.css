@@ -2,12 +2,17 @@
 
 body {
   width: 400px;
-  height: 450px;
 }
 
 .red {
   height: 100px;
   background: #ff0000;
+}
+
+#clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
 .green {
@@ -21,11 +26,10 @@ body {
   width: 250px;
   height: 250px;
   background: #3300ff;
-  float: right;
+  float: left;
 }
 
 .yellow {
   height: 100px;
   background: #ffe600;
-  clear: both;
 }
